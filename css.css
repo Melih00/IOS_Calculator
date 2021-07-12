@@ -1,0 +1,60 @@
+body{
+    background-color: #111111;
+}
+#maindiv{
+    width: 320px;
+    height: 550px;
+    border: 4px solid gray;
+    margin: auto;
+    flex-flow: column;
+    display: flex;
+}
+.screen{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 255, 255, 0);
+    border: none;
+    color: white;
+    font-size: 50px;
+    text-align: right;
+    padding: 0px 10px 0px 10px;
+    cursor:crosshair;
+}
+#screen{
+    height: 120px;
+    padding-right: 24px;
+}
+.keys{
+    height: 80px;
+    display: flex;
+    justify-content: center;    align-content: space-between;
+
+}
+.key{
+    margin: 6px auto;
+    border: none;
+    width: 69px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 200ms;
+    border-radius: 50%;
+}
+.key:hover{
+    border: 2px solid white;
+}
+
+.white{
+    background-color: #D4D4D2;
+}
+.orange{
+    background-color: #FF9500;
+    color: white;
+}
+.gray{
+    background-color: #505050;
+    color: white;
+}
+.zero{
+    flex-grow: 0.8;
+    border-radius: 30%;
+}
