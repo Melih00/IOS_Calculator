@@ -102,6 +102,8 @@ btnComma.onclick = () => {
 
      screen.value.includes(".")
     ? null
+    : screen.value.includes('/')
+    ? null
 
 
     : (screen.value += ".");
