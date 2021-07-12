@@ -102,7 +102,11 @@ btnComma.onclick = () => {
 
      screen.value.includes(".")
     ? null
-    : screen.value.includes('/')
+    : screen.value.includes('+')
+    ? null
+    : screen.value.includes('-')
+    ? null
+    : screen.value.includes('x')
     ? null
 
 
