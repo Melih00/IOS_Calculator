@@ -191,7 +191,6 @@ btnEqual.onclick = () => {
           words.word1 += screen.value[i];
         } else {
           counter--;
-       
         }
       }
       counter = 2
